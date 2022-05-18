@@ -73,7 +73,7 @@ async function run(){
         res.send({admin:isAdmin});
       })
 
-
+//
 
 
       app.put('/user/admin/:email',verifyJWT,verifyAdmin,async(req,res)=>{
